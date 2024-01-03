@@ -7,7 +7,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import { Typography } from '@mui/material';
 import Link from 'next/link';
 import Button from '@mui/material/Button';
-
+import MeIcon from '../public/assets/me.png'; // 画像のパスに置き換える
 export function Profile() {
   const { t } = useTranslation();
 
@@ -76,7 +76,7 @@ export function Profile() {
         }}
       >
         <Image
-          src="/../public/assets/me.png"
+          src={MeIcon}
           alt="Shintaro Mori"
           width={500}
           height={500}
