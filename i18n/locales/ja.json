@@ -80,13 +80,13 @@
       "sectiontitle": "学歴",
       "items": {
         "bachelor": {
-        "school": "筑波大学",
-        "degree": "学士(情報メディア学)",
+        "school": "筑波大学情報学群情報メディア創成学類",
+        "degree": "学士(情報メディア科学)",
         "subheader": "4月 2022 - 現在",
         "description": ""
         },
         "foundation": {
-        "school": "神戸市立工業高等専門学校",
+        "school": "神戸市立工業高等専門学校電子工学科",
         "degree": "準学士(工学)",
         "subheader": "4月 2017 - 3月 2022",
         "description": ""
