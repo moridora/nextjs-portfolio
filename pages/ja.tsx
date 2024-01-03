@@ -1,14 +1,15 @@
 // pages/index.tsx
+
 import React from 'react';
 import { Career } from '@/components/Career';
 import { Publications } from '@/components/Publications';
 import { Awards } from '@/components/Awards';
 import { Grants } from '@/components/Grants';
-import { Profile } from '@/components/Profile';
+import { Profile } from '@/components/Profile'; // 追加
 import Head from 'next/head';
 import { Container, CssBaseline, Grid, Typography } from '@mui/material';
 
-export default function Home() {
+export default function Japanese() {
   return (
     <div>
       <Head>

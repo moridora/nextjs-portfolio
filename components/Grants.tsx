@@ -1,25 +1,23 @@
 // pages/Grants.tsx
 import React from 'react';
 import { MyContainer } from './MyContainer';
+import { useTranslation } from 'react-i18next';
 
 export function Grants() {
+  const { t } = useTranslation();
   const sections = [
     {
       sectionTitle: '',
       items: [
         {
-          title: (
-            <>
-              Teraura Scholarship Foundation
-            </>
-          ),
-          subheader: 'April 2022 - March 2024',
-          description: '50,000 JPY/month',
+          title: t("scholarships.items.1.title"),
+          subheader: t("scholarships.items.1.subheader"),
+          description: t("scholarships.items.1.description"),
         },
       ],
     },
   ];
 
-  return <MyContainer title="Scholarships" sections={sections} backgroundColor="linear-gradient(135deg, #764ba2, #709b02)" />;
+  return <MyContainer title={t('scholarships.title')} sections={sections} backgroundColor="linear-gradient(135deg, #764ba2, #709b02)" />;
 }
 

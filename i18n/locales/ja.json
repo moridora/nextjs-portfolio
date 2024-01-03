@@ -1,0 +1,137 @@
+{
+  "header": {
+  },
+  "footer": {
+  },
+  "profile": {
+    "title": "",
+    "items": {
+      "name": {
+        "title": "名前",
+        "subheader": "",
+        "description": "守 新太郎"
+      },
+      "aboutme": {
+        "title": "所属",
+        "subheader": "",
+        "description": "筑波大学情報学群情報メディア創成学類4年"
+      },
+      "interests": {
+        "title": "研究興味",
+        "subheader": "",
+        "description": "リモートコラボレーション，AR，EMS．"
+      },
+      "contact": {
+        "title": "連絡先",
+        "subheader": "",
+        "description": "smori[at]iplab.cs.tsukuba.ac.jp"
+      }
+    }
+  },
+  "publicaitons": {
+    "title": "研究業績",
+    "jounal": "論文誌",
+    "fullpaper": "Full Paper",
+    "shortpaper": "Short Paper",
+    "papers":{
+      "1":{
+        "title": "サロゲートプレゼンテーションにおける音声提示手法の検証",        
+        "authors": "守 新太郎, 高田 崚介",
+        "booktitle":"令和3年度高専研究発表会 講演論文集",
+        "month": "3月",
+        "year": "2022",
+        "publisher":"電気学会 関西支部" 
+      },
+      "2":{
+        "title": "サロゲートプレゼンテーションにおける音声提示手法の検証",        
+        "authors": "守 新太郎, 高田 崚介",
+        "booktitle":"第84回全国大会講演論文集",
+        "month": "3月",
+        "year": "2022",
+        "publisher":"情報処理学会" 
+      },
+      "3":{
+        "title": "ARハンドとEMSによる手指の同期を用いた遠隔でのピアノ演奏指導",
+        "authors": "守 新太郎, 井原 圭一, 川口 一画",
+        "booktitle":"第31回インタラクティブシステムとソフトウェアに関するワークショップ(WISS 2023)",
+        "month": "11月",
+        "year": "2023",
+        "publisher":"日本ソフトウェア科学会",
+        "pages":"41-47"
+      },
+      "4":{
+        "title": "物理的提示とAR提示を併用するハイブリッド型ロボットにおける頭部と腕部の提示方法の違いによる影響",        
+        "authors": "川口 一画, 井原 圭一, 市川 あゆみ, 佐方 葵, 守 新太郎",
+        "booktitle":"情報処理学会論文誌",
+        "month": "",
+        "year": "2024",
+        "publisher":"情報処理学会",
+        "pages":"41-47",
+        "vol":"65",
+        "no":"3" 
+      }
+    }
+  },
+  "career": {
+    "title": "経歴",
+    "education": {
+      "sectiontitle": "学歴",
+      "items": {
+        "bachelor": {
+        "school": "筑波大学",
+        "degree": "学士(情報メディア学)",
+        "subheader": "4月 2022 - 現在",
+        "description": ""
+        },
+        "foundation": {
+        "school": "神戸市立工業高等専門学校",
+        "degree": "準学士(工学)",
+        "subheader": "4月 2017 - 3月 2022",
+        "description": ""
+        }
+      }
+    },
+    "work": {
+      "sectiontitle": "職歴",
+      "items": {
+        "recruit": {
+        "company": "株式会社リクルート",
+        "type": "契約社員",
+        "subheader": "5月 2022 - 現在",
+        "description": ""
+        },
+        "muto": {
+        "company": "合同会社武藤電算機技術",
+        "type": "学生アルバイト",
+        "subheader": "5月 2022 - 現在",
+        "description": ""
+        }
+      }
+    }
+  },
+  "awards": {
+    "title": "表彰",
+    "items": {
+      "1": {
+        "title": "論文発表賞",
+        "subheader": "3月 2022",
+        "description": "電気学会関西支部令和3年度高専研究発表会にて賞を頂きました．"
+      },
+      "2": {
+        "title": "成績優秀賞",
+        "subheader": "3月 2022",
+        "description": "神戸市立工業高等専門学校電子工学科を首席で卒業しました．"
+      }
+    }
+  },
+  "scholarships": {
+    "title": "奨学金",
+    "items": {
+      "1": {
+        "title": "寺浦奨学会",
+        "subheader": "4月 2022 - 3月 2024",
+        "description": "50,000円/月"
+      }
+    }
+  }
+}

@@ -19,9 +19,10 @@ interface MyContainerProps {
   title: string;
   sections: Section[];
   backgroundColor?: string;
+  children?: React.ReactNode; // childrenプロパティを追加
 }
 
-export function MyContainer({ title, sections, backgroundColor = 'linear-gradient(135deg, #ffeb3b, #ffc107)' }: MyContainerProps) {
+export function MyContainer({ title, sections, backgroundColor = 'linear-gradient(135deg, #ffeb3b, #ffc107)', children }: MyContainerProps) {
   const [ref, inView] = useInView({ triggerOnce: true });
 
   return (
@@ -38,20 +39,21 @@ export function MyContainer({ title, sections, backgroundColor = 'linear-gradien
           opacity: inView ? 1 : 0,
           transform: inView ? 'translateY(0)' : 'translateY(20px)',
           transition: 'opacity 0.5s ease-in-out, transform 0.5s ease-in-out',
+          marginLeft: 0,
         }}
       >
         <CssBaseline />
+        {children} {/* childrenを表示する部分を追加 */}
         <Typography
           variant="h2"
           component="div"
-
           sx={{
             marginBottom: 2, fontWeight: 'bold', borderBottom: '2px solid #fff', paddingBottom: '0.5rem',
             '@media (max-width: 600px)': {
-              fontSize: '2.5rem', // スマホの場合のフォントサイズ
+              fontSize: '2.5rem',
             },
             '@media (max-width: 300px)': {
-              fontSize: '2rem', // スマホの場合のフォントサイズ
+              fontSize: '2rem',
             },
           }}
         >
@@ -65,6 +67,8 @@ export function MyContainer({ title, sections, backgroundColor = 'linear-gradien
             ))}
           </div>
         )}
+
+
       </Container>
     </div>
   );

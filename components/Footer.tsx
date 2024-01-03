@@ -27,9 +27,6 @@ export function Footer() {
       }}
     >
       <Container>
-        <Typography variant="body2" color="textSecondary" align="center">
-          © {new Date().getFullYear()} Shintaro Mori
-        </Typography>
         <Link href="https://www.linkedin.com/in/shintaro-mori/" target="_blank" rel="noopener noreferrer" passHref>
           <IconButton sx={{ color: 'textSecondary' }}>
             <LinkedInIcon />
@@ -45,6 +42,12 @@ export function Footer() {
             <InstagramIcon />
           </IconButton>
         </Link>
+        <Typography variant="body2" color="textSecondary" align="center">
+          © {new Date().getFullYear()} Shintaro Mori
+        </Typography>
+        <Typography variant="body2" color="textSecondary" align="center">
+          This website uses Google Analytics to analyze the user behavior.
+        </Typography>
       </Container>
     </Box>
   );

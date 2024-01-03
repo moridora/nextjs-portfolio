@@ -22,9 +22,13 @@ export function MyCard({ title, subheader, description }: Props) {
     >
       <CardHeader title={title} subheader={subheader} sx={{ borderBottom: '1px solid #ddd' }} />
       <CardContent>
-        <Typography variant="body1" paragraph>
-          {description}
-        </Typography>
+        {typeof description === 'string' ? (
+          <Typography variant="body1" paragraph>
+            {description}
+          </Typography>
+        ) : (
+          description // JSX.Elementの場合はそのまま表示
+        )}
       </CardContent>
     </Card>
   );

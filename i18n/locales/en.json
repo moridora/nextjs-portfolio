@@ -1,0 +1,137 @@
+{
+  "header": {
+  },
+  "footer": {
+  },
+  "profile": {
+    "title": "",
+    "items": {
+      "name": {
+        "title": "Name",
+        "subheader": "",
+        "description": "Shintaro Mori"
+      },
+      "aboutme": {
+        "title": "About Me",
+        "subheader": "",
+        "description": "I am a senior undergraduate student in the School of Informatics, College of Media Arts, Science and Technology at the University of Tsukuba. "
+      },
+      "interests": {
+        "title": "Interests",
+        "subheader": "",
+        "description": "I am interested in remote collaboration for skill acquisition by means of AR(augmented reality), electrical muscle stimulation."
+      },
+      "contact": {
+        "title": "contact",
+        "subheader": "",
+        "description": "smori[at]iplab.cs.tsukuba.ac.jp"
+      }
+    }
+  },
+  "publicaitons": {
+    "title": "Publicaitons",
+    "jounal": "Jounal",
+    "fullpaper": "Full Paper",
+    "shortpaper": "Short Paper",
+    "papers":{
+      "1":{
+        "title": "サロゲートプレゼンテーションにおける音声提示手法の検証",        
+        "authors": "Shintaro Mori, Ryosuke Takada",
+        "booktitle":" Proceedings of the College of Technology Graduation Research Presentation for the Reiwa 3 Academic Year",
+        "month": "March",
+        "year": "2022",
+        "publisher":"IEEJ Kansai Branch" 
+      },
+      "2":{
+        "title": "サロゲートプレゼンテーションにおける音声提示手法の検証",        
+        "authors": "Shintaro Mori, Ryosuke Takada",
+        "booktitle":"Proceedings of the 84th National Convention of IPSJ",
+        "month": "March",
+        "year": "2022",
+        "publisher":"IPSJ" 
+      },
+      "3":{
+        "title": "ARハンドとEMSによる手指の同期を用いた遠隔でのピアノ演奏指導",
+        "authors": "Shintaro Mori, Keiichi Ihara, Ikkaku Kawaguchi",
+        "booktitle":"31th Workshop on Interactive Systems and Software (WISS 2023)",
+        "month": "November",
+        "year": "2023",
+        "publisher":"JSSST",
+        "pages":"41-47"
+      },
+      "4":{
+        "title": "物理的提示とAR提示を併用するハイブリッド型ロボットにおける頭部と腕部の提示方法の違いによる影響",        
+        "authors": "Ikkaku Kawaguchi, Keiichi Ihara, Ayumi Ichikawa, Aoi Sakata, Shintaro Mori",
+        "booktitle":"IPSJ Jounal",
+        "month": "",
+        "year": "2024",
+        "publisher":"IPSJ",
+        "pages":"41-47",
+        "vol":"65",
+        "no":"3" 
+      }
+    }
+  },
+  "career": {
+    "title": "Career",
+    "education": {
+      "sectiontitle": "Education",
+      "items": {
+        "bachelor": {
+        "school": "University of Tsukuba",
+        "degree": "Bachelor of Science in Media Sciences and Engineering",
+        "subheader": "April 2022 - Present",
+        "description": ""
+        },
+        "foundation": {
+        "school": "Kobe City College of Technology",
+        "degree": "Foundation of Engineering",
+        "subheader": "April 2017 - March 2022",
+        "description": ""
+        }
+      }
+    },
+    "work": {
+      "sectiontitle": "Work Experience",
+      "items": {
+        "recruit": {
+        "company": "Recruit Co., Ltd.",
+        "type": "Part-Time Contract Worker",
+        "subheader": "May 2022 - present",
+        "description": ""
+        },
+        "muto": {
+        "company": "Muto Computer Technology LLC.",
+        "type": "Part-Time Worker",
+        "subheader": "May 2022 - present",
+        "description": ""
+        }
+      }
+    }
+  },
+  "awards": {
+    "title": "Awards",
+    "items": {
+      "1": {
+        "title": "Paper Presentation Award",
+        "subheader": "March 2022",
+        "description": "At the 2022 IEEJ Kansai Branch the College of Technology Graduation Research Presentation , I was awarded the Paper Presentation Award."
+      },
+      "2": {
+        "title": "Outstanding Academic Achievement Award",
+        "subheader": "March 2022",
+        "description": "I graduated as the top student from the Electronic Engineering Department at Kobe City College of Technology."
+      }
+    }
+  },
+  "scholarships": {
+    "title": "Scholarships",
+    "items": {
+      "1": {
+        "title": "Teraura Scholarship Foundation",
+        "subheader": "April 2022 - March 2024",
+        "description": "50,000 JPY/month"
+      }
+    }
+  }
+}

@@ -12,14 +12,17 @@ import Script from "next/script";
 import * as gtag from "../lib/gtag";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+import "./../i18n/configs"; //i18
 
 const theme = createTheme({
   typography: {
-    fontFamily: 'Poppins, sans-serif', // 使用するフォントを指定
+    fontFamily: 'Roboto, sans-serif', // 使用するフォントを指定
+
   },
 });
 
 export default function MyApp({ Component, pageProps }: AppProps) {
+
 
   const router = useRouter();
 

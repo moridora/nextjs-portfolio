@@ -1,64 +1,67 @@
 // components/Career.tsx
 import React from 'react';
 import { MyContainer } from './MyContainer';
+import { useTranslation } from 'react-i18next';
 
 export function Career() {
+  const { t } = useTranslation();
+
   const sections = [
     {
-      sectionTitle: 'Education',
+      sectionTitle: t("career.education.sectiontitle"),
       items: [
         {
           title: (
             <>
-              University of Tsukuba
+              {t("career.education.items.bachelor.school")}
               <br />
-              Bachelor of Science in Media Sciences and Engineering
+              {t("career.education.items.bachelor.degree")}
             </>
           ),
-          subheader: 'April 2022 - Present',
+          subheader: t("career.education.items.bachelor.subheader"),
           description: '',
         },
         {
           title: (
             <>
-              Kobe City College of Technology
+              {t("career.education.items.foundation.school")}
               <br />
-              Foundation of Engineering
+              {t("career.education.items.foundation.degree")}
             </>
           ),
-          subheader: 'April 2017 - March 2022',
+          subheader: t("career.education.items.foundation.subheader"),
           description: '',
         },
       ],
     },
     {
-      sectionTitle: 'Work Experience',
+      sectionTitle: t("career.work.sectiontitle"),
       items: [
         {
           title: (
             <>
-              Recruit Co., Ltd.
+              {t("career.work.items.recruit.company")}
               <br />
-              Part-Time Contract Worker at the Ring bureau
+              {t("career.work.items.recruit.type")}
             </>
           ),
-          subheader: 'May 2022 - Present',
+          subheader: t("career.work.items.recruit.subheader"),
           description: '',
         },
         {
           title: (
             <>
-              Muto Computer Technology LLC.
+              {t("career.work.items.muto.company")}
               <br />
-              Part-Time Worker
+              {t("career.work.items.muto.type")}
             </>
           ),
-          subheader: 'May 2022 - Present',
+          subheader: t("career.work.items.muto.subheader"),
           description: '',
         },
       ],
     },
   ];
 
-  return <MyContainer title="Career" sections={sections} backgroundColor="linear-gradient(135deg, #764ba2, #82a0e8)" />;
+  return <MyContainer title={t('career.title')} sections={sections} backgroundColor="linear-gradient(135deg, #764ba2, #82a0e8)" />;
 }
