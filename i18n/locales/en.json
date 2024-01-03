@@ -14,7 +14,9 @@
       "aboutme": {
         "title": "About Me",
         "subheader": "",
-        "description": "I am a senior undergraduate student in the School of Informatics, College of Media Arts, Science and Technology at the University of Tsukuba. "
+        "school": "School of Informatics, College of Media Arts, Science and Technology at the University of Tsukuba",
+        "lab":"Interactive Programming Laboratory",
+        "description": "I am a senior undergraduate student in School of Informatics, College of Media Arts, Science and Technology at the University of Tsukuba and working with Ikkaku Kawaguchi at Interactive Programming Laboratory. "
       },
       "interests": {
         "title": "Interests",
