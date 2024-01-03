@@ -3,6 +3,7 @@ import React from 'react';
 import { Box, Container, IconButton, Typography } from '@mui/material';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import XIcon from '@mui/icons-material/X';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Link from 'next/link';
 
 export function Footer() {
@@ -29,6 +30,11 @@ export function Footer() {
         <Typography variant="body2" color="textSecondary" align="center">
           © {new Date().getFullYear()} Shintaro Mori
         </Typography>
+        <Link href="https://www.linkedin.com/in/shintaro-mori/" target="_blank" rel="noopener noreferrer" passHref>
+          <IconButton sx={{ color: 'textSecondary' }}>
+            <LinkedInIcon />
+          </IconButton>
+        </Link>
         <Link href="https://www.X.com/moridorazombie" target="_blank" rel="noopener noreferrer" passHref>
           <IconButton sx={{ color: 'textSecondary' }}>
             <XIcon />
