@@ -22,7 +22,7 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = () => {
       label="Language"
       value={i18n.language}
       onChange={changeLanguage}
-      sx={{ color: 'white', '&:before': { borderColor: 'white' } }}
+      sx={{ color: '#333', '&:before': { borderColor: 'white' } }}
     >
       <MenuItem value="en">English</MenuItem>
       <MenuItem value="ja">日本語</MenuItem>

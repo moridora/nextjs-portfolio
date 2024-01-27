@@ -13,9 +13,9 @@ export const Header: React.FC<HeaderProps> = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <CssBaseline />
-      <AppBar position="fixed" sx={{ background: 'linear-gradient(135deg, #467eea, #76dba2)' }}>
+      <AppBar position="fixed" sx={{ background: 'linear-gradient(180deg, #76dba233, #ffffff44)' }}>
         <Toolbar>
-          <Typography variant="h5" component="div" fontWeight="bold" flexGrow={1} sx={{ fontFamily: 'Roboto, sans-serif' }}>
+          <Typography variant="h5" component="div" fontWeight="bold" flexGrow={1} color="#333" sx={{ fontFamily: 'Roboto, sans-serif' }}>
             Shintaro Mori
           </Typography>
           <LanguageSwitcher />

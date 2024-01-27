@@ -31,11 +31,11 @@ export function MyContainer({ title, sections, backgroundColor = 'linear-gradien
         maxWidth="md"
         sx={{
           marginTop: 5,
-          background: backgroundColor,
-          color: '#fff',
+          background: 'rgba(255, 255, 255, 0.3)',
+          color: '#333333',
           padding: 3,
           borderRadius: 6,
-          boxShadow: '0px 8px 15px rgba(0, 0, 0, 0.2)',
+          boxShadow: '8px 8px 15px rgba(0, 0, 0, 0.3)',
           opacity: inView ? 1 : 0,
           transform: inView ? 'translateY(0)' : 'translateY(20px)',
           transition: 'opacity 0.5s ease-in-out, transform 0.5s ease-in-out',

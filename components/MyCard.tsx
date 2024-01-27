@@ -13,7 +13,7 @@ export function MyCard({ title, subheader, description }: Props) {
   return (
     <Card
       sx={{
-        background: 'rgba(255, 255, 255, 0.9)',
+        background: 'rgba(255, 255, 255, 0.6)',
         color: '#333',
         marginBottom: 2,
         borderRadius: 6,
