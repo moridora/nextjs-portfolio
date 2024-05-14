@@ -13,6 +13,17 @@ export function Career() {
         {
           title: (
             <>
+              {t("career.education.items.master.school")}
+              <br />
+              {t("career.education.items.master.degree")}
+            </>
+          ),
+          subheader: t("career.education.items.master.subheader"),
+          description: '',
+        },
+        {
+          title: (
+            <>
               {t("career.education.items.bachelor.school")}
               <br />
               {t("career.education.items.bachelor.degree")}

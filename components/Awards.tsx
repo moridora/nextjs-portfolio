@@ -20,6 +20,11 @@ export function Awards() {
           subheader: t("awards.items.2.subheader"),
           description: t("awards.items.2.description"),
         },
+        {
+          title: t("awards.items.3.title"),
+          subheader: t("awards.items.3.subheader"),
+          description: t("awards.items.3.description"),
+        },
       ],
     },
   ];

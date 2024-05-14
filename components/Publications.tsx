@@ -20,7 +20,15 @@ export function Publications() {
             <>
               {t('publicaitons.papers.4.authors')}.
               <br />
-              &quot;{t('publicaitons.papers.4.title')}&quot;, {t('publicaitons.papers.4.booktitle')}, vol.{t('publicaitons.papers.4.vol')}, No.{t('publicaitons.papers.4.no')}, {t('publicaitons.papers.4.year')}, {t('publicaitons.papers.4.publisher')}.(To appear)
+              &quot;{t('publicaitons.papers.4.title')}&quot;, {t('publicaitons.papers.4.booktitle')}, vol.{t('publicaitons.papers.4.vol')}, No.{t('publicaitons.papers.4.no')}, {t('publicaitons.papers.4.year')}, {t('publicaitons.papers.4.publisher')}, pp. {t('publicaitons.papers.4.pages')}.
+              &nbsp;
+              <IconButton
+                to="https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=233366&item_no=1&page_id=13&block_id=8"
+                icon={<PDFIcon />}
+                text="PDF"
+                backgroundColor="linear-gradient(135deg, #FF0000, #FF00c1)"
+                textColor=""
+              />
             </>
           ),
         },

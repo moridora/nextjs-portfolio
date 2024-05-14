@@ -61,10 +61,10 @@
         "title": "物理的提示とAR提示を併用するハイブリッド型ロボットにおける頭部と腕部の提示方法の違いによる影響",        
         "authors": "Ikkaku Kawaguchi, Keiichi Ihara, Ayumi Ichikawa, Aoi Sakata, Shintaro Mori",
         "booktitle":"IPSJ Jounal",
-        "month": "",
+        "month": "March",
         "year": "2024",
         "publisher":"IPSJ",
-        "pages":"41-47",
+        "pages":"706-717",
         "vol":"65",
         "no":"3" 
       }
@@ -75,6 +75,12 @@
     "education": {
       "sectiontitle": "Education",
       "items": {
+        "master": {
+          "school": "University of Tsukuba",
+          "degree": "Master of Engineering",
+          "subheader": "4月 2024 - Present",
+          "description": ""
+          },
         "bachelor": {
         "school": "University of Tsukuba",
         "degree": "Bachelor of Science in Media Sciences and Engineering",
@@ -119,6 +125,11 @@
         "title": "Outstanding Academic Achievement Award",
         "subheader": "March 2022",
         "description": "I graduated as the top student from the Electronic Engineering Department at Kobe City College of Technology."
+      },
+      "3": {
+        "title": "Dean's Award in the School of Informatics",
+        "subheader": "March 2024",
+        "description": "I received the Dean's Award from the School of Informatics, University of Tsukuba."
       }
     }
   },
