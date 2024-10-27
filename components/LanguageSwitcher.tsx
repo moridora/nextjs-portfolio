@@ -24,8 +24,8 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = () => {
       onChange={changeLanguage}
       sx={{ color: '#333', '&:before': { borderColor: 'white' } }}
     >
-      <MenuItem value="en">English</MenuItem>
       <MenuItem value="ja">日本語</MenuItem>
+      <MenuItem value="en">English</MenuItem>
     </Select>
   );
 };
